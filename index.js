@@ -11,8 +11,7 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html');
 });
 
-const sessionName = "yusril";
-const donet = "https://saweria.co/sansekai";
+const sessionName = "RinAi";
 const {
   default: sansekaiConnect,
   useMultiFileAuthState,
